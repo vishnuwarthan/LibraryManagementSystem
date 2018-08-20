@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Libraray System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <li class="active"><a class="navbar-brand" href="index.jsp">Libraray System</a></li>
+            </div>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">BOOKS
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="BookController">ADD BOOKS</a></li>
+                            <li><a href="#">VIEW BOOK</a></li>
+                            
+                        </ul>
+                    </li>
+                    
+                     <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">CLASIFICATION
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="addMainController">MAIN CLASIFICATION</a></li>
+                            <li><a href="addSubController">SUB CLASIFICATION</a></li>
+                            
+                        </ul>
+                    </li>
+                    
+                    
+     
+                </ul>
+        </div>
+    </nav>
+  
+ 
+     <img src="image/lib.jpg" alt="Cinque Terre" width="1140" height="536" align="centre"> 
+       
+    
+    </div>
+   
+</body>
+</html>
